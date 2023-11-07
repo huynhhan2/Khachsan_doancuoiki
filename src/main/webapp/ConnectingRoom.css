@@ -1,0 +1,176 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:black;
+
+}
+
+
+.logo {
+    width: 100px; /* Điều chỉnh kích thước logo theo mong muốn */
+    position: absolute;
+    left: 10px; /* Điều chỉnh khoảng cách từ bên trái màn hình */
+    top: 10px; /* Điều chỉnh khoảng cách từ trên xuống màn hình */
+}
+
+
+
+.button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex; /* Sử dụng display: flex để chữ "ĐẶT PHÒNG" nằm trên cùng một hàng */
+    align-items: center; /* Căn chữ theo trục dọc */
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #fff;
+    padding: 12px 30px;
+    background-color: rgb(128, 64, 64);
+}
+
+
+
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+.image-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.image1 {
+  grid-column: 2 / span 2;
+  grid-row: 3 / span 2;
+}
+
+.image2 {
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.image3 {
+  grid-column: 5;
+  grid-row: 3;
+}
+
+.image4 {
+  grid-column: 4	;
+  grid-row: 4;
+}
+
+.image5 {
+  grid-column: 5;
+  grid-row: 4;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  grid-column: 2 / span 3;
+  grid-row: 5 / span 2;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.content h1, .content h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.content a {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  margin-top: 10px;
+}	
+
+.object1{
+	grid-column: 2/span 2;
+	grid-row: 6;
+	display: flex;
+  	flex-direction: column;
+  	text-align: left;
+}
+
+.object1 li {
+  font-size: 25px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.object1 h3{
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.object2{
+	grid-column: 4/span 2;
+	grid-row: 6;
+	display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.object2 h3{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.object2 li{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.content .icoin1 a {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+footer { 
+    display: block;
+}

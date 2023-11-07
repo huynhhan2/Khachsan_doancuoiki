@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100vh;
+}
+#header{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background: peachpuff;/*hồi sửa này bằng ảnh*/
+}
+#menu {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 10px; /* Điều chỉnh khoảng cách từ trên xuống màn hình */
+    left: 100px; /* Điều chỉnh khoảng cách từ bên trái màn hình */
+}
+
+#menu .item {
+    margin: 0px 25px;
+}
+
+#menu .item a {
+    color: #626a67;
+    text-decoration: none;
+}
+.logo {
+    width: 100px; /* Điều chỉnh kích thước logo theo mong muốn */
+    position: absolute;
+    left: 10px; /* Điều chỉnh khoảng cách từ bên trái màn hình */
+    top: 10px; /* Điều chỉnh khoảng cách từ trên xuống màn hình */
+}
+
+
+
+.button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex; /* Sử dụng display: flex để chữ "ĐẶT PHÒNG" nằm trên cùng một hàng */
+    align-items: center; /* Căn chữ theo trục dọc */
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #fff;
+    padding: 12px 30px;
+    background-color: rgb(128, 64, 64);
+}
+#main-content{
+	display: flex;
+	
+}
+#content {
+	flex-basis: 60%;
+    max-width: 600px; /* Điều chỉnh chiều rộng tối đa của nội dung */
+    margin: 0 auto; /* Căn giữa nội dung trên trang */
+    line-height: 1.5; /* Điều chỉnh độ cao dòng */
+    padding: 10px; /* Tạo khoảng cách giữa nội dung và khung bên ngoài */
+}
+
+h1, h2, h3, p {
+    margin-bottom: 20px; /* Khoảng cách giữa các phần tử */
+}
+
+h1, h2 {
+    color: #333; /* Màu chữ cho tiêu đề */
+}
+
+h1 {
+    font-size: 24px; /* Kích thước chữ cho tiêu đề h1 */
+}
+
+h2 {
+    font-size: 20px; /* Kích thước chữ cho tiêu đề h2 */
+}
+
+h3 {
+    font-size: 16px; /* Kích thước chữ cho tiêu đề h3 */
+}
+
+p {
+    font-size: 14px; /* Kích thước chữ cho đoạn văn bản */
+}
+
+#sidebar {
+    flex-basis: 40%;
+    line-height: 2; 
+    align-items: flex-start;
+}
+
+
+
+.contact-form {
+    margin-top: 20px; /* Khoảng cách giữa form và tiêu đề */
+}
+
+.form-group {
+    margin-bottom: 10px; /* Khoảng cách giữa các form group */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+

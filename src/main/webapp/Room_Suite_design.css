@@ -1,0 +1,160 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
+    width: 100%;
+    height: 65vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.image{
+	position: absolute; /* Hoặc có thể sử dụng 'fixed' nếu bạn muốn ảnh cố định trên màn hình */
+    top: 0;
+    left: 0;
+    width: 100%; /* Đặt chiều rộng của ảnh sao cho nó chiếm toàn bộ chiều rộng của trang */
+    z-index: -1; /* Đặt z-index âm để ảnh nằm sau các phần tử khác */
+}
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 20px;
+     letter-spacing: 30px;
+}
+
+.content h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 300; 
+    font-style: italic; 
+    letter-spacing: 2px;
+    font-family: 'Font Name', sans-serif;
+	
+}
+
+.logo {
+    width: 100px; /* Điều chỉnh kích thước logo theo mong muốn */
+    position: absolute;
+    left: 10px; /* Điều chỉnh khoảng cách từ bên trái màn hình */
+    top: 10px; /* Điều chỉnh khoảng cách từ trên xuống màn hình */
+}
+
+
+
+.button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex; /* Sử dụng display: flex để chữ "ĐẶT PHÒNG" nằm trên cùng một hàng */
+    align-items: center; /* Căn chữ theo trục dọc */
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #fff;
+    padding: 12px 30px;
+    background-color: rgb(128, 64, 64);
+}
+.welcome h4{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.welcome a{
+	color: orange;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel-rooms-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+}
+
+.hotel-room {
+    display: inline-block;
+}
+
+.hotel-room .room {
+    width: 600px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.hotel-room .room img {
+    max-width: 100%;
+}
+.centered-link {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.centered-link .view-more {
+    text-decoration: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #333;
+    padding: 10px;
+    font-weight: bold;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+

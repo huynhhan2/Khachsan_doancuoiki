@@ -1,0 +1,101 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover; 
+    z-index: -1;
+}
+
+
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 20px;
+     letter-spacing: 30px;
+}
+
+.content h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 300; 
+    font-style: italic; 
+    letter-spacing: 2px;
+    font-family: 'Font Name', sans-serif;
+	
+}
+
+.logo {
+    width: 100px; /* Điều chỉnh kích thước logo theo mong muốn */
+    position: absolute;
+    left: 10px; /* Điều chỉnh khoảng cách từ bên trái màn hình */
+    top: 10px; /* Điều chỉnh khoảng cách từ trên xuống màn hình */
+}
+
+
+
+.button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #fff;
+    padding: 12px 30px;
+    background-color: rgb(128, 64, 64);
+}
+
+
+
